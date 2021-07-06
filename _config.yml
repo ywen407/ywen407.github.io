@@ -1,25 +1,25 @@
-site: Gesko
-title: Gesko
+site: Ezra Iksu Eom
+title: Ezra Iksu Eom
 description: >-
-  just a minimalist, personal blog
+  Just do it what you want.
 googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
-timezone: Rome
-repo: https://github.com/p0wex/Gesko # site repo [optional]
+timezone: Seoul
+repo: https://github.com/ywen407/ywen407.github.io # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 
 author:
-  name: p0wex
-  bio: just a minimalist, personal blog
-  username: p0wex # general username
-  github: p0wex # github username
-  twitter: P0Wex # twitter username
-  email: your-email@email.com # email adress
+  name: Ezra
+  bio: Just do it what you want.
+  username: Ezra # general username
+  github: Ezra Iksu Eom # github username
+  twitter: none # twitter username
+  email: ywen407@naver.com # email adress
 
 # URL settings
-url: "https://powex.ml" #
-baseurl: "/Gesko" # leave blank if not wishd
-permalink: "https://powex.ml/Gesko/"
+url: "https://ywen407.github.io" #
+baseurl: "" # leave blank if not wishd
+permalink: "https://ywen407.github.io"
 permalink: pretty 
 
 

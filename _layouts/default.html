@@ -6,13 +6,13 @@ layout: compress
 <html lang="en">
 {% include head.html %}
  <!-- Global site tag (gtag.js) - Google Analytics -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-3EP7KLCYVP"></script>
+ <script async src="https://www.googletagmanager.com/gtm.js?id='+i+dl"></script>
  <script>
    window.dataLayer = window.dataLayer || [];
-   function gtag() { dataLayer.push(arguments); }
-   gtag('js', new Date());
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-   gtag('config', 'G-3EP7KLCYVP');
+    gtag('config', 'GTM-MDKHZ4F');
  </script>
 
 
@@ -74,12 +74,12 @@ layout: compress
 
 
 {% if page.url == '/' %}
-  <script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.js"></script>
+  <script src="{{ site.url }}/assets/js/simple-jekyll-search.js"></script>
   <script>
     var sjs = SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('search-results'),
-      json: '{{ site.baseurl }}/search.json',
+      json: '{{ site.url }}/search.json',
       searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
       noResultsText: 'No results found..',
       limit: 10,
